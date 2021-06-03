@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='/style-auth.css'>
+    </head>
+    <body>
+        <h2 id='Title'>PerfoMax</h2>
+        <h2>Register</h2>
+        <form action='registerauth' method='POST'>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <label for="rep-password">Repeat password:</label>
+            <input type="password" id="rep-password" name="rep-password">
+            <input id='submit' type="submit" value="Register">
+            <a href='/login' id='login'>Registered? Login</a>
+          </form>
+    </body>
+</html>

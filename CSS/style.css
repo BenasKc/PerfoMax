@@ -1,0 +1,91 @@
+:root {
+    --brown1: #DFD6A7;
+    --brown2: #F7CE5B;
+    --brown3: #F7B05B;
+    --brown4: #AF9B46;
+    --brown5: #1F1300;
+  }
+#mainbody{
+    background-color: var(--brown1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+}
+#navbar{
+    display: block;
+    background-color: var(--brown2);
+    margin: 0px;
+    border-bottom: 2px solid var(--brown5);
+}
+#navbar ul li{
+    display: block;
+    position: relative;
+    list-style-type: none;
+    margin: 0.2rem;
+    padding: 1em;
+    background-color: var(--brown3);
+    text-align: center;
+    border-radius: 5px;
+    color: var(--brown5);
+}
+#navbar ul li a{
+    color: var(--brown5);
+    text-decoration: none;
+}
+#navbar ul{
+    align-items: flex-end;
+  justify-content: flex-end;
+    display: flex; 
+    margin: 0px;
+    padding: 0.5rem;
+}
+#navbar div{
+    display: block;
+    position: relative;
+    float:left;
+    margin: 0.2rem;
+    margin-left: 2rem;
+    color: var(--brown5);
+}
+#main-body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--brown2);
+    margin: 2rem;
+    border: 2px solid var(--brown5);
+    border-radius: 5px;
+    padding:1rem;
+    width: 40%;
+}
+#task-intro{
+    background-color: var(--brown3);
+    padding: 0.5em;
+    margin: auto;
+    margin-bottom: 0.5em;
+    width: 50%;
+    border-radius: 5px;
+}
+#todo-tasks{
+    display: flex;
+    padding-left: 1rem;
+    background-color: var(--brown3);
+    border: 2px solid var(--brown5);
+    border-radius: 5px;
+}
+#todo-tasks ul li{
+    width: 90%;
+    list-style-type: none;
+    margin: 0.2rem;
+    padding: 1em;
+    background-color: var(--brown3);
+    border: 1px solid var(--brown5);
+}
+#todo-tasks ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+}
