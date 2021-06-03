@@ -7,8 +7,8 @@ var crypto = require('crypto');
 var con = mysql.createConnection(
     {
         host:'localhost',
-        user:'benas',
-        password: 'QZ3Qs>M48,vr3+RL'
+        user:'user',
+        password: 'userpass'
     }
 );
 function authentication(req, res, next){
